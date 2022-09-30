@@ -1,0 +1,10 @@
+document.getElementById("yes").style.color = 'green';
+var dom = document.getElementById("yes");
+dom.textContent = "0";
+dom.textContent = "My darling My heart beats faster when I am with you and when I talk to you. It is because you are such an amazing person. You have got a very rare quality that I have never seen in anyone else. The feeling I have for you is not quite describable. I feel overwhelmed with love and desire anytime I am in your presence. Your voice keeps echoing in my ears anytime we are apart, and the sounds of your laughter keep me grinning from ear to ear.";
+dom.style.backgroundColor = 'yellow';
+dom.style.textTransform = "uppercase";
+dom.style.textDecoration = "none";
+dom.style.textAlign = "center";
+dom.style.letterSpacing = "0.6em";
+//dom.style.wordSpacing = "26px";

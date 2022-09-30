@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="" content="">
+		<title>counter</title>
+		<style type="text/css" media="all">
+			*{
+				background-color: pink;
+				background-size: cover;
+			}
+			
+			
+			
+			h1,h2 {
+				text-align: center;
+			 
+			}
+			
+			h1 {
+				text-transform: lowercase;
+				font-family: Sans-Serif;
+				font-size: 150px;
+			}
+			h2 {
+				font-family: Sans-Serif;
+				letter-spacing: 2px;
+				font-size: 40px;
+				top: 0px;
+				text-transform: uppercase;
+			}
+			
+			
+			
+			
+			.counting-container {
+				margin: 100px auto;
+				
+			}
+			
+			button {
+				 border: none;
+				 padding: 30px; 
+				 border-radius: 60px;
+				 letter-spacing: 2px;
+			}
+			#back {
+				background-color: #e316b2;
+			}
+			#start {
+				background-color: green;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="counting-container">
+		  <h2>Digital Tesbeeh </h2>
+		 
+			<h1 id="number-pressed">0</h1>
+			
+			
+			
+		</div>
+		<center>
+			
+		<button id="start" onclick="newCount()">START</button>
+		
+		
+		
+		
+		
+		<button id ='back' onclick="goBack()">RESET</button>
+		</center>
+		
+		
+		
+		<script src="counter.js">	</script>
+	</body>
+</html>
